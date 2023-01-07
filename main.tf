@@ -22,8 +22,4 @@ resource "google_compute_instance" "database" {
     }
   }
 
-  metadata = {
-    sshKeys = "ubuntu:${file(var.ssh_public_key_filepath)}"
-  }
-
 }
