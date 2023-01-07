@@ -18,7 +18,7 @@ resource "google_compute_instance" "database" {
     network = "default"
 
     access_config {
-      // Ephemeral IP
+      
     }
    }
 }
