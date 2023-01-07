@@ -21,5 +21,4 @@ resource "google_compute_instance" "database" {
       // Ephemeral IP
     }
   }
-
 }
